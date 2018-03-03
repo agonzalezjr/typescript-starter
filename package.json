@@ -1,0 +1,26 @@
+{
+  "name": "type-script-primer",
+  "version": "1.0.0",
+  "description": "minimal typescript boilerplate to use with VSCode",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "start": "node dist/src/index.js",
+    "build": "tsc",
+    "test": "tsc && mocha dist/test/**/*.js",
+    "test-report": "mocha dist/test/**/*.js --reporter mochawesome --reporter-options reportDir=test-report"
+  },
+  "author": "Andy Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^9.4.6",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1"
+  }
+}
