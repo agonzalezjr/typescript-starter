@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
-    "start": "node dist/src/index.js",
+    "start": "tsc && node dist/src/index.js",
     "build": "tsc",
     "test": "tsc && mocha dist/test/**/*.js",
     "test-report": "mocha dist/test/**/*.js --reporter mochawesome --reporter-options reportDir=test-report"
