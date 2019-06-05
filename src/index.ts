@@ -1,6 +1,4 @@
-
 import { Adder } from './Adder';
-
 import chalk from 'chalk';
 
 console.log(`${chalk.blue('Hello world!')} I am debuggable in VSCode`);

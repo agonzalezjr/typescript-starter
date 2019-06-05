@@ -1,6 +1,13 @@
 # typescript-primer
 
-Minimalist boiler plate for Typescript/VSCode project for a productive environment.
+Minimalist boiler plate for Typescript/VSCode project to get a productive environment off the ground in a single clone.
+
+It will:
+
+- build
+- run
+- tests
+- lints
 
 ## Pre-requisites
 
@@ -26,17 +33,22 @@ code . # open VSCode
 ```sh
 npm start     # runs index.ts
 npm test      # runs all unit tests
+npm run lint  # runs the linter
 ```
 
 ## Usage from VSCode
 
+You can easily get the recommended extensions with the **Extensions: Show Recommended Extensions** command in VSCode.
+
 ### Debug/Run
 
-To Debug the main code, use the `Launch` command or `F5`.
+To Debug/Run the main code, use the `Launch Program` launch configuration.
 
 ### Debug tests
 
-Install the [Mocha sidebar extension](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar) to debug and run tests right from VSCode.
+To Debug/Run the tests, use the `Launch Tests` launch config.
+
+Alternatively, install the [Mocha sidebar extension](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar) to debug and run tests right from VSCode.
 
 ![ms](mocha-sidebar.png)
 
@@ -46,15 +58,24 @@ Install the [Node TDD extension](https://marketplace.visualstudio.com/items?item
 
 ![nt](node-tdd.png)
 
-You can easily get these extensions with the **Extensions: Show Recommended Extensions** command in VSCode.
+### Linting
+
+Code will be auto-fixed on Save when possible. The linter can be run with command > Run task > npm: lint
 
 ## Project structure
 
-```
-src/          -> put TS code here
-src/index.ts  -> main
-test/         -> put TS tests here
+```sh
+# source
+src/           -> put TS code here
+src/index.ts   -> main
+test/          -> put TS tests here
 
-dist/         -> compiled JS code will be here
-test-report/  -> test report will be here
+# settings/config
+.eslintrc.js   -> ESLint config
+.prettierrc.js -> Prettier config
+tsconfig.json  -> TS compiler settings
+
+# output
+dist/          -> compiled JS code will be here
+test-report/   -> test report will be here
 ```

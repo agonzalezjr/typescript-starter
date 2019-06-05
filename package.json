@@ -9,7 +9,8 @@
     "build": "tsc",
     "test": "tsc && mocha dist/test/**/*.js",
     "test-report": "tsc && mocha dist/test/**/*.js --reporter mochawesome --reporter-options reportDir=test-report",
-    "test-meow": "tsc && mocha dist/test/**/*.js --reporter nyan"
+    "test-meow": "tsc && mocha dist/test/**/*.js --reporter nyan",
+    "lint": "eslint src/**/*.ts"
   },
   "author": "Andy Gonzalez",
   "license": "ISC",
@@ -18,6 +19,12 @@
     "typescript": "^3.5.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.1",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.4",
