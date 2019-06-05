@@ -4,10 +4,10 @@ Minimalist boiler plate for Typescript/VSCode project to get a productive enviro
 
 It will:
 
-- build
-- run
-- tests
-- lints
+- build 🏗️
+- run 🏃
+- tests 🧪
+- lints ✨
 
 ## Pre-requisites
 
