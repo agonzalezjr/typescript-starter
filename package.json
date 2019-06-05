@@ -14,13 +14,13 @@
   "author": "Andy Gonzalez",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.4.2",
     "typescript": "^3.5.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.4",
-    "chalk": "^2.4.2",
     "chai": "^4.2.0",
     "karma-nyan-reporter": "^0.2.5",
     "mocha": "^6.1.4",
