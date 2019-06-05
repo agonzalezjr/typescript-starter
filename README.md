@@ -2,6 +2,16 @@
 
 Minimalist boiler plate for Typescript/VSCode project for a productive environment.
 
+## Pre-requisites
+
+```
+npm -v
+6.9.0
+
+node --version
+v10.15.0
+```
+
 ## Install
 
 ```sh
@@ -35,6 +45,8 @@ Install the [Mocha sidebar extension](https://marketplace.visualstudio.com/items
 Install the [Node TDD extension](https://marketplace.visualstudio.com/items?itemName=prashaantt.node-tdd). Your code will be built/tested automatically whenever project is saved.
 
 ![nt](node-tdd.png)
+
+You can easily get these extensions with the **Extensions: Show Recommended Extensions** command in VSCode.
 
 ## Project structure
 
