@@ -1,5 +1,7 @@
 # typescript-primer
 
+[![Dependabot Status][dependabot-status]][dependabot]
+
 Minimalist boiler plate for Typescript/VSCode project to get a productive environment off the ground in a single clone.
 
 It will:
