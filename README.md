@@ -9,6 +9,8 @@ It will:
 - tests 🧪
 - lints ✨
 
+Dependencies get automatically (weekly) policed by [dependabot](https://app.dependabot.com/accounts/agonzalezjr/repos/123736588).
+
 ## Pre-requisites
 
 ```
