@@ -1,6 +1,6 @@
-# typescript-primer
+# typescript-primer 
 
-[![Dependabot Status][dependabot-status]][dependabot]
+[![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://app.dependabot.com/accounts/agonzalezjr/repos/123736588)
 
 Minimalist boiler plate for Typescript/VSCode project to get a productive environment off the ground in a single clone.
 
@@ -10,8 +10,6 @@ It will:
 - run 🏃
 - tests 🧪
 - lints ✨
-
-Dependencies get automatically (weekly) policed by [dependabot](https://app.dependabot.com/accounts/agonzalezjr/repos/123736588).
 
 ## Pre-requisites
 
