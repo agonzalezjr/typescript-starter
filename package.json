@@ -28,7 +28,7 @@
     "prettier": "^1.18.2",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.6.8",
+    "@types/node": "^12.7.2",
     "chai": "^4.2.0",
     "karma-nyan-reporter": "^0.2.5",
     "mocha": "^6.2.0",
