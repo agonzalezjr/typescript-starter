@@ -32,6 +32,6 @@
     "chai": "^4.2.0",
     "karma-nyan-reporter": "^0.2.5",
     "mocha": "^6.2.0",
-    "mochawesome": "^4.0.1"
+    "mochawesome": "^4.1.0"
   }
 }
