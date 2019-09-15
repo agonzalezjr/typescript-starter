@@ -34,8 +34,10 @@
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
     "karma": "^4.3.0",
     "karma-nyan-reporter": "^0.2.5",
+    "lint-staged": "^9.2.5",
     "mocha": "^6.2.0",
     "mochawesome": "^4.1.0",
     "prettier": "^1.18.2"
@@ -43,5 +45,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agonzalezjr/typescript-starter.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint src/**/*.ts --fix",
+      "git add"
+    ]
   }
 }
