@@ -16,7 +16,7 @@
   "author": "Andy Gonzalez",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^4.1.0",
     "typescript": "^3.7.2",
     "performance-now": "^2.1.0"
   },
