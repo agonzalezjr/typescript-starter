@@ -34,7 +34,7 @@
     "eslint-plugin-json": "^2.0.1",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
-    "husky": "^3.0.5",
+    "husky": "^5.0.9",
     "karma": "^4.4.1",
     "karma-nyan-reporter": "^0.2.5",
     "lint-staged": "^9.4.2",
